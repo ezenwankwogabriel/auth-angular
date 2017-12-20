@@ -13,13 +13,13 @@ export class DataService {
     .map(res=> res.json())
     }
 
-  addNewUser(newItem){
-    let headers = new Headers();
-    headers.append('content-type', 'application/json');
-    return this.http.post('/api/setup', newUser,   {headers: headers})
-      //map the return from the post to be a json file
-      .map(res => res.json())
-  }
+  // addNewUser(newItem){
+  //   let headers = new Headers();
+  //   headers.append('content-type', 'application/json');
+  //   return this.http.post('/api/setup', newUser,   {headers: headers})
+  //     //map the return from the post to be a json file
+  //     .map(res => res.json())
+  // }
   
   
 }

@@ -4,17 +4,13 @@ import {FormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http'
 
 import { AppComponent } from './app.component';
-import { ShoppingItemComponent } from './shopping-item/shopping-item.component';
 import { AuthLoginComponent } from './auth-login/auth-login.component';
-import { AuthSignupComponent } from './auth-signup/auth-signup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShoppingItemComponent,
     AuthLoginComponent,
-    AuthSignupComponent
   ],
   imports: [
     BrowserModule,
