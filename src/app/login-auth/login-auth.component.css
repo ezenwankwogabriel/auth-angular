@@ -1,0 +1,9 @@
+.text-cen{
+    margin: 100px auto 10px auto;
+    width: 30%
+}
+.text-cent{
+    margin: 5px auto;
+    width: 30%;
+    text-align: center;
+}

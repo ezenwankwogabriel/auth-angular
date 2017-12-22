@@ -1,22 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from '@angular/forms';
-import { HttpModule } from '@angular/http'
+import { HttpModule }from '@angular/http';
+import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { AuthLoginComponent } from './auth-login/auth-login.component';
+import { LoginAuthComponent } from './login-auth/login-auth.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthLoginComponent,
+    LoginAuthComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpModule
-    
+    HttpModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
