@@ -44,7 +44,6 @@ export class LoginAuthComponent implements OnInit {
     console.log(newUser)
     this.loginservice.onSignup(newUser)
     .subscribe(user =>{
-      console.log(user)
     })
   }
 
@@ -57,7 +56,7 @@ export class LoginAuthComponent implements OnInit {
     console.log(newUser)
     this.loginservice.onLogin(newUser)
     .subscribe(user =>{
-      console.log(user)
+      this.getUsers()
     })
   }
 

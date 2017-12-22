@@ -33,13 +33,13 @@
               <input class="form-control" type="password" placeholder="password" name="password" ngModel>
             </div>
             <div>
-                <button type="submit" class="btn btn-sm btn-success text-center" (click)='toggling()' >SignUp</button>  
+                <button type="submit" class="btn btn-sm btn-success text-center" >SignUp</button>  
             </div>
           </form>
           
     </div>
     <div class="text-cent">
-        <button class="btn btn-sm btn-primary " >SignIn</button>   
+        <button class="btn btn-sm btn-primary "  (click)='toggling()' >SignIn</button>   
     </div>
 </div>
 

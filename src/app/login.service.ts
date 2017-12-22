@@ -13,7 +13,6 @@ export class LoginService {
   }
 
   onSignup(newUser){
-    console.log(newUser)
     let headers= new Headers();
     headers.append('Content-Type','application/json');
     return this.http.post("http://localhost:3000/api/users", newUser, {headers: headers})
@@ -21,7 +20,6 @@ export class LoginService {
   }
 
   onLogin(newUser){
-    console.log(newUser)
     let headers= new Headers();
     headers.append('Content-Type','application/json');
     return this.http.post("http://localhost:3000/api/authenticate", newUser, {headers: headers})
